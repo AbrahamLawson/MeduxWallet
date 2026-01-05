@@ -1,0 +1,117 @@
+/* Lucide Icons Custom Styles */
+
+/* Base icon styles */
+.lucide {
+  display: inline-block;
+  vertical-align: middle;
+  color: currentColor;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+/* Icon spacing in labels */
+label .lucide {
+  margin-right: 8px;
+  vertical-align: text-bottom;
+  color: var(--primary, #ff6b35);
+}
+
+/* Icon spacing in buttons */
+button .lucide {
+  margin-right: 8px;
+  vertical-align: text-bottom;
+}
+
+/* Icon spacing in headings */
+h1 .lucide {
+  margin-right: 12px;
+  vertical-align: middle;
+  color: var(--primary, #ff6b35);
+}
+
+h2 .lucide {
+  margin-right: 10px;
+  vertical-align: middle;
+  color: var(--primary, #ff6b35);
+}
+
+h3 .lucide {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Stat icons - larger and colored */
+.stat-icon .lucide {
+  color: var(--primary, #ff6b35);
+  stroke-width: 1.5;
+}
+
+/* Navigation icons */
+.nav-link .lucide {
+  margin-right: 6px;
+  vertical-align: text-bottom;
+}
+
+/* Button icons - white in primary buttons */
+.btn-primary .lucide,
+.btn-add .lucide {
+  color: white;
+  stroke: white;
+}
+
+/* Logout button icon */
+.btn-logout .lucide {
+  margin-right: 6px;
+}
+
+/* Icon in price change indicators */
+.price-change .lucide {
+  margin-right: 4px;
+  vertical-align: text-bottom;
+}
+
+/* Stat change icons */
+.stat-change .lucide {
+  vertical-align: text-bottom;
+  margin-right: 4px;
+}
+
+/* Tab icons */
+.tab .lucide {
+  margin-right: 8px;
+  vertical-align: text-bottom;
+}
+
+/* Close button icons */
+.btn-close .lucide {
+  margin: 0;
+}
+
+.btn-delete .lucide {
+  margin: 0;
+}
+
+/* Search button icon */
+.btn-search .lucide,
+.btn-refresh .lucide {
+  margin-right: 6px;
+  vertical-align: text-bottom;
+}
+
+/* Logo icon animation */
+.logo-animated .lucide {
+  transition: transform 0.3s ease;
+}
+
+.logo-animated:hover .lucide {
+  transform: rotate(15deg) scale(1.1);
+}
+
+/* Empty state icon */
+.empty-icon .lucide {
+  color: var(--gray-400, #a3a3a3);
+  stroke-width: 1.5;
+}
