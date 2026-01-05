@@ -146,6 +146,3 @@ frontend/
 - CORS configured for localhost development
 - API routes protected by JWT firewall
 
-## License
-
-MIT
